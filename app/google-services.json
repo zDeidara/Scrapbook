@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "952939145271",
+    "firebase_url": "https://diplom-3ce16.firebaseio.com",
+    "project_id": "diplom-3ce16",
+    "storage_bucket": "diplom-3ce16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952939145271:android:760892a4293e91d7",
+        "android_client_info": {
+          "package_name": "com.example.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952939145271-v5egp86fpv411e49kj7gfqga9fqfkfkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.instagram",
+            "certificate_hash": "9fd4b5c29509de93567b135b4181c39e4922d033"
+          }
+        },
+        {
+          "client_id": "952939145271-p8v0lmrrf3vvj4fhr83apj14geme5nmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhGqMb8liU4PphL5kVEv9TNW9fVyOwsyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952939145271-p8v0lmrrf3vvj4fhr83apj14geme5nmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

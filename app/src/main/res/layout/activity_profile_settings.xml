@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+                                       style="@style/toolbar"
+                                       app:layout_constraintStart_toStartOf="parent"
+                                       app:layout_constraintEnd_toEndOf="parent"
+                                       app:layout_constraintTop_toTopOf="parent"
+                                       app:contentInsetStart="0dp">
+
+        <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                     android:layout_height="wrap_content">
+
+            <ImageView android:id="@+id/back_image"
+                       style="@style/toolbar_image"
+                       android:src="@drawable/ic_back"
+                       app:layout_constraintStart_toStartOf="parent"
+                       app:layout_constraintTop_toTopOf="parent"
+                       app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <TextView style="@style/toolbar_title"
+                      app:layout_constraintStart_toEndOf="@id/back_image"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintTop_toTopOf="parent"
+                      android:text="Settings "/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView android:id="@+id/reference"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:layout_constraintTop_toBottomOf="@id/toolbar"
+              app:layout_constraintBottom_toTopOf="@id/info"
+              android:padding="5dp"
+              android:paddingStart="20dp"
+              android:text="Reference"
+              android:textColor="@color/black"
+              android:textStyle="italic"
+              android:textSize="21sp" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"/>
+
+    <TextView android:id="@+id/info"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:layout_constraintTop_toBottomOf="@id/reference"
+              app:layout_constraintBottom_toTopOf="@id/sign_out_text"
+              android:padding="5dp"
+              android:paddingStart="20dp"
+              android:text="Info"
+              android:textColor="@color/black"
+              android:textStyle="italic"
+              android:textSize="21sp" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"/>
+
+    <TextView android:id="@+id/sign_out_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:layout_constraintTop_toBottomOf="@id/info"
+              android:padding="5dp"
+              android:paddingStart="20dp"
+              android:textColor="@color/blue"
+              android:textSize="21sp"
+              android:text="Sign Out" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"/>
+
+</android.support.constraint.ConstraintLayout>
